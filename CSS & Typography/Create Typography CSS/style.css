@@ -1,0 +1,61 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+}
+
+body {
+    margin: 4rem;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+}
+
+thead tr {
+    background-color: rgb(221, 221, 221);
+}
+
+tbody tr:nth-child(2n + 1) {
+    background-color: rgb(241, 241, 241);
+}
+
+tr:nth-child(2n + 1) td {
+    background-color: rgb(241, 241, 241);
+}
+
+table,
+td,
+th {
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    border-style: solid;
+}
+
+tbody tr:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+blockquote {
+    border-left: 3px solid rgb(221, 221, 221);
+    font-style: italic;
+}
+
+blockquote p {
+    padding-left: 3em;
+}
+
+blockquote p:last-of-type {
+    text-align: right;
+}

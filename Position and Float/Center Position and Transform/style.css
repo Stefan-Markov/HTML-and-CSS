@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(238, 238, 238);
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+}
+
+button {
+    float: right;
+    background: rgb(0, 153, 0);
+    display: block;
+    border-radius: 3px;
+    color: white;
+    height: 30px;
+}
+
+.card {
+    position: relative;
+    display: block;
+    height: 320px;
+    width: 15%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+}
+
+.pic {
+    width: 100%;
+}
+
+img {
+    position: absolute;
+}
+
+.description {
+    position: absolute;
+    top: 152px;
+    padding: 10px;
+}

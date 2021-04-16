@@ -1,0 +1,29 @@
+@import url('font-awesome/css/font-awesome.css');
+
+.card {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+.viewport {
+    position: relative;
+    height: 100vh;
+}
+
+.first {
+    background: linear-gradient(#195C9C, #42CAA1);
+}
+
+.sec {
+    background: linear-gradient(#A83378, #D18014);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}

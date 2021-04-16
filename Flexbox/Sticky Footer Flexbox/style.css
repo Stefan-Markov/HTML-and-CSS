@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    background: rgb(238, 238, 238);
+    flex-direction: column;
+    height: 100vh;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+    background: rgb(102, 102, 102);
+}
+
+main {
+    flex-direction: column;
+    flex: 1 0 auto;
+    padding: 2rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-bottom: 2px solid #000000;
+}

@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: rgb(238, 238, 238);
+}
+
+img {
+    background: rgb(255, 255, 255);
+}
+
+blockquote,
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+}
+
+aside a {
+    color: rgb(0, 153, 0);
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+    flex-wrap: wrap;
+}
+
+header {
+    justify-content: center;
+    flex-basis: 100%;
+}
+
+p.site-title {
+    font-size: 30px;
+}
+
+.main-aside {
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    flex-basis: 80%;
+}
+
+aside {
+    flex-basis: 20%;
+    padding-left: 60px;
+}
+
+blockquote {
+    float: right;
+    width: 40%;
+    border-left: 3px solid rgb(180, 180, 180);
+    margin-left: 50px;
+    padding-left: 30px;
+    font-family: Georgia, serif;
+}
+
+.right {
+    float: right;
+    border: 3px solid black;
+    padding: 6px;
+    margin: 10px;
+    height: auto;
+}
+
+.left {
+    float: left;
+    border: 3px solid black;
+    padding: 6px;
+    margin: 10px;
+}

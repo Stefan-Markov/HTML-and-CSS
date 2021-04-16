@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.container {
+    display: flex;
+    max-width: 65vw;
+}
+
+.week {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+}
+
+span {
+    flex: 1 1 15%;
+    border: 1px solid black;
+    padding: 10px 20px 50px 20px;
+    text-align: center;
+}
+
+.day-type {
+    padding-bottom: 100px;
+    flex-basis: 100%;
+}
